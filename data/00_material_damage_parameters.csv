@@ -1,0 +1,9 @@
+parameter,value,unit
+Damage coeff alpha_I (Nb),1.2e-20,cm^2
+Damage coeff kappa_TLS (Nb),5e+20,cm^-2
+1/f noise coeff fresh A_phi0 (Nb),2.5e-05,Phi0^2/Hz
+Rad-induced dephasing coeff alpha_phi (Nb),1e-09,cm^2 s^-1
+Fresh dephasing rate Gamma_deph0/2pi,20.0,kHz
+NRT displacement energy Ed (Nb),60.0,eV
+arc-dpa recombination factor xi (Nb),0.3,-
+Displacement cross-section sigma_dpa (Nb),600.0,mb
