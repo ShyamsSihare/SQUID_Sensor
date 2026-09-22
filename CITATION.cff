@@ -1,0 +1,33 @@
+cff-version: 1.2.0
+message: >-
+  If you use this simulation/figure-generation pipeline, please cite both
+  the accompanying manuscript (for the physical model) and this repository
+  (for the simulation code and generated dataset).
+type: software
+title: >-
+  Hybrid SQUID Sensor Arrays for Nuclear Plant Radiation Monitoring:
+  Numerical Simulation, Quantum Anomaly Detection & Publication-Figure
+  Pipeline
+authors:
+  - name: "SQUID Nuclear Radiation Monitoring Simulation Project Contributors"
+repository-code: "https://github.com/OWNER/REPO"
+license: MIT
+version: 1.0.0
+date-released: "2026-09-22"
+keywords:
+  - SQUID
+  - quantum sensing
+  - nuclear instrumentation
+  - radiation monitoring
+  - quantum Fisher information
+  - variational quantum circuits
+  - anomaly detection
+  - predictive maintenance
+references:
+  - type: article
+    title: "Hybrid SQUID Sensor Arrays for Nuclear Plant Radiation Monitoring"
+    authors:
+      - name: "Manuscript authors (see manuscript/main.tex)"
+    notes: >-
+      The physical model, equations, and material constants implemented by
+      this repository's simulation code are taken from this manuscript.
