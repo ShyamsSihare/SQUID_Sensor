@@ -1,0 +1,45 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "squid-sim"
+version = "1.0.0"
+description = "Numerical simulation and figure-generation pipeline for 'Hybrid SQUID Sensor Arrays for Nuclear Plant Radiation Monitoring'"
+readme = "README.md"
+requires-python = ">=3.11"
+license = { file = "LICENSE" }
+authors = [
+  { name = "SQUID Nuclear Radiation Monitoring Simulation Project Contributors" }
+]
+keywords = [
+  "SQUID", "quantum sensing", "nuclear instrumentation", "radiation monitoring",
+  "quantum Fisher information", "variational quantum circuits", "anomaly detection",
+]
+classifiers = [
+  "Development Status :: 4 - Beta",
+  "Intended Audience :: Science/Research",
+  "License :: OSI Approved :: MIT License",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+  "Topic :: Scientific/Engineering :: Physics",
+]
+dependencies = [
+  "numpy>=2.4,<3",
+  "scipy>=1.17,<2",
+  "pandas>=3.0,<4",
+  "matplotlib>=3.10,<4",
+  "scikit-learn>=1.5",
+]
+
+[project.optional-dependencies]
+notebooks = ["jupyter>=1.0", "jupyterlab>=4.0", "nbconvert>=7.0", "nbformat>=5.9", "ipykernel>=6.29", "seaborn>=0.13", "openpyxl>=3.1", "pypdf>=4.0"]
+dev = ["pytest>=8.0", "flake8>=7.0"]
+
+[project.urls]
+Repository = "https://github.com/OWNER/REPO"
+Documentation = "https://github.com/OWNER/REPO/tree/main/docs"
+
+[tool.setuptools.packages.find]
+where = ["src"]
