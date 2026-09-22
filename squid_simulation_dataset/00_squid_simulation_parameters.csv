@@ -1,0 +1,14 @@
+parameter,symbol,value,unit
+Thermal power,P_th,3400.0,MW
+Core gamma flux (RPV inner),Phi_gamma,4500000000000.0,cm^-2 s^-1
+Fast neutron flux (RPV),Phi_n,120000000000.0,cm^-2 s^-1
+SQUID loop area,A_sq,10000.0,um^2
+Loop inductance,L_sq,80.0,pH
+Critical current (fresh),Ic0,10.0,uA
+Junction capacitance,C,2.0,fF
+Normal resistance,R_n,5.0,Ohm
+Operating temperature,T,4.2,K
+Array size,N,64.0,-
+Dephasing time (fresh),T2_0,8.0,us
+VQC qubits,n,8.0,-
+VQC layers,L,4.0,-

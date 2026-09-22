@@ -1,0 +1,6 @@
+failure_mode,TPR_quantum_pct,TPR_classical_pct,AUC_quantum,AUC_classical,FPR_quantum_x1e-4,FPR_classical_x1e-4
+sensor_degradation,100.0,100.0,0.9999999999999999,0.9999999999999999,10.0,10.0
+radiation_burst,100.0,100.0,0.9999999999999999,0.9999999999999999,10.0,10.0
+coolant_anomaly,15.2,33.800000000000004,0.7457368,0.7539004,10.0,10.0
+foreign_material,100.0,100.0,0.9999999999999999,0.9999999999999999,10.0,10.0
+calibration_drift,96.8,98.4,0.9972069,0.9960989,10.0,10.0
