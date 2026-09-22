@@ -1,0 +1,28 @@
+# Reproducible conda/mamba environment for the SQUID nuclear-monitoring
+# simulation + figure-generation pipeline.
+#
+#   mamba env create -f environment.yml
+#   conda activate squid-sim
+#
+name: squid-sim
+channels:
+  - conda-forge
+dependencies:
+  - python=3.12
+  - numpy=2.4.*
+  - scipy=1.17.*
+  - pandas=3.0.*
+  - matplotlib=3.10.*
+  - seaborn=0.13.*
+  - scikit-learn>=1.5
+  - jupyter
+  - jupyterlab
+  - nbconvert
+  - nbformat
+  - ipykernel
+  - openpyxl
+  - pytest
+  - flake8
+  - pip
+  - pip:
+      - pypdf>=4.0
